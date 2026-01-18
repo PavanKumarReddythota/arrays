@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class array2d
+{
+public static void main(String [] args)
+{
+Scanner scan=new Scanner(System.in);
+System.out.println("enter the class");
+int a=scan.nextInt();
+int b=scan.nextInt();
+int[][]c=new int[a][b];
+for(int i=0;i<=a;i++)
+{
+for(int j=0;j<=b;j++)
+{
+System.out.println("enter the student");
+c[i][j]=Scan.nextInt();
+}
+}
+System.out.println("enter the rool number");
+for(int i=0;i<=a;i++)
+{
+for(int j=0;j<=b;j++)
+{
+System.out.println(c[i][j]+" ");
+}
+System.out.println();
+}
+}
+}
+
