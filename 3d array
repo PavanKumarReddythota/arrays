@@ -1,0 +1,39 @@
+import java.util.Scanner;
+public class array3d {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		System.out.println("enter the class");
+		int a=scan.nextInt();
+		int b=scan.nextInt();
+		int c=scan.nextInt();
+		int[][][]d=new int[a][b][c];
+		
+		for(int i=0;i<a;i++)
+		{
+			for(int j=0;j<b;j++)
+			{
+				for(int k=0;k<c;k++)
+				{
+				System.out.println("enter the class "+(i+1)+" student");	
+				d[i][j][k]=scan.nextInt();
+				}
+			}
+		}
+		System.out.println("enter the ages");
+		for(int i=0;i<a;i++)
+		{
+			for(int j=0;j<b;j++)
+			{
+				for(int k=0;k<c;k++)
+				{
+					System.out.print(d[i][j][k]+" ");
+				}
+				System.out.println(" ");
+	}
+             System.out.println();   
+}
+
+	}
+
+}
