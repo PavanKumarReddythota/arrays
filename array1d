@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class array1d
+{
+public static void main(String[] args)
+{
+Scanner scan=new Scanner(System.in);
+System.out.println("enter the student");
+int a=scan.nextInt();
+int[]b=new int[a];
+
+for(int i=0;i<a;i++) {
+System.out.println("enter the age");
+b[i]=scan.nextInt();
+}
+
+System.out.println("enter the rool number");
+for(int i=0;i<a;i++) {
+System.out.print(b[i]+" ");
+}
+}
+}
